@@ -192,3 +192,34 @@ body {
 #blog .card-text {
     color: #ddd; /* Cor dos resumos */
 }
+
+footer {
+    background-color: #121212; /* Cor de fundo escura */
+    color: #eee; /* Cor do texto */
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px solid #333; /* Adiciona uma linha no topo do rodapé */
+}
+
+footer a {
+    color: #ccc; /* Cor dos links no rodapé */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+footer a:hover {
+    color: #4CAF50; /* Cor dos links ao passar o mouse */
+}
+
+footer .section-title {
+    color: #4CAF50; /* Cor dos títulos das seções no rodapé */
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 8px;
+}
