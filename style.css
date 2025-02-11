@@ -1,0 +1,194 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #121212; /* Cor de fundo escura para um visual gamer */
+    color: #fff; /* Texto branco para contraste */
+}
+
+.navbar {
+    background-color: #333; /* Cinza escuro para a barra de navegação */
+    border-bottom: 1px solid #555; /* Linha divisória sutil */
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #4CAF50; /* Verde vibrante para o link ativo */
+    color: #fff; /* Texto branco para o link ativo */
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff; /* Texto branco para links e marca */
+}
+
+.navbar-toggler {
+    background-color: #fff; /* Toggler branco */
+}
+
+.section-title {
+    color: #4CAF50; /* Verde vibrante para títulos */
+    text-shadow: 1px 1px 2px #000; /* Sombra para destacar os títulos */
+}
+
+#sobre-o-site, #catalogo {
+    background-color: #212121; /* Cinza um pouco mais claro para as seções */
+    padding: 20px; /* Espaçamento interno para respiro */
+    border-radius: 8px; /* Borda arredondada */
+    margin-bottom: 20px; /* Margem inferior para separação */
+}
+
+.text-colored {
+    color: #4CAF50; /* Verde vibrante para textos destacados */
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #4CAF50; /* Verde vibrante para botões */
+    color: #fff; /* Texto branco para botões */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Espaçamento interno maior para o botão */
+    border-radius: 5px; /* Borda arredondada para o botão */
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+}
+
+#fale-conosco button:hover {
+    background-color: #388E3C; /* Escurece o verde ao passar o mouse */
+}
+
+
+.nav-cardapio .nav-link:hover {
+    color: #4CAF50; /* Verde vibrante ao passar o mouse */
+}
+
+.nav-cardapio .nav-link {
+  color: #ccc; /* Cor dos links não ativos */
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #ccc; /* Cor dos ícones de redes sociais */
+    transition: color 0.3s ease; /* Transição suave na cor dos ícones */
+}
+
+.social-links a:hover {
+    color: #4CAF50; /* Verde vibrante ao passar o mouse nos ícones */
+}
+
+/* Estilos para os inputs e textarea */
+#fale-conosco input[type="text"],
+#fale-conosco input[type="email"],
+#fale-conosco input[type="tel"],
+#fale-conosco textarea {
+    background-color: #444;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#fale-conosco input[type="text"]:focus,
+#fale-conosco input[type="email"]:focus,
+#fale-conosco input[type="tel"]:focus,
+#fale-conosco textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Adiciona uma sombra verde ao foco */
+}
+
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+/* Estilos para os Cards */
+.card {
+    background-color: #2a2a2a; /* Cor de fundo mais escura e atraente */
+    border: none; /* Remove a borda padrão */
+    border-radius: 10px; /* Borda mais arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra sutil para destacar */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+    color: #fff; /* Cor do texto dentro do card */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Eleva o card levemente ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Sombra mais intensa no hover */
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0; /* Arredonda apenas o topo da imagem */
+}
+
+.card-body {
+    padding: 1.25rem; /* Espaçamento interno no conteúdo */
+}
+
+.card-title {
+    margin-bottom: 0.75rem; /* Espaço abaixo do título */
+}
+
+.card-text {
+    color: #ddd; /* Cor do texto da descrição */
+}
+
+/* Estilos para os Botões */
+.btn {
+    border: none;
+    
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase; /* Texto em maiúsculas */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transições suaves */
+    margin-right: 10px; /* Adiciona uma margem à direita do primeiro botão */
+}
+
+/* Remove a margem do último botão para evitar espaçamento extra */
+.btn:last-child {
+    margin-right: 0;
+}
+
+.btn-comprar {
+    background-color: #4CAF50; /* Verde vibrante para o botão "Comprar" */
+    color: #fff;
+}
+
+.btn-comprar:hover {
+    background-color: #388E3C; /* Verde mais escuro no hover */
+}
+
+.btn-ver-mais {
+    background-color: transparent; /* Fundo transparente */
+    color: #4CAF50; /* Verde vibrante para o texto */
+    border: 2px solid #4CAF50; /* Borda verde */
+}
+
+.btn-ver-mais:hover {
+    background-color: #4CAF50; /* Verde vibrante no hover */
+    color: #fff; /* Texto branco no hover */
+}
+
+#blog {
+    background-color: #212121; /* Cinza escuro para o fundo da seção */
+    color: #fff; /* Cor do texto */
+}
+
+#blog .card {
+    background-color: #333; /* Cinza mais claro para o fundo dos cards */
+    border: none; /* Remove a borda */
+}
+
+#blog .card-title {
+    color: #4CAF50; /* Cor dos títulos das notícias */
+}
+
+#blog .card-text {
+    color: #ddd; /* Cor dos resumos */
+}
